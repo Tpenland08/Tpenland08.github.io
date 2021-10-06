@@ -1,0 +1,15 @@
+.title{
+  font-family: monospace;
+  font-size: 98px;
+  color: #00FF00;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.div{
+  background-color: rgba(5, 5, 5, 0.8);
+  margin-right: 450px;
+  box-shadow: 0px -2px 2px rgba(0,0,0,0.7);
+}
+body{
+background-image: url('1010.jpg');
+}
