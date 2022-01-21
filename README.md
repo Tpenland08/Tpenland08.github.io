@@ -1,7 +1,7 @@
 # taemon-coolz.github.io
 :)
-This is my personal website.
+This is my website.
 I just make it for fun.
-Constructive critisism welcome.
+Constructive criticism is welcome.
 Incomplete.
-I replace the files to update them as I write it in Atom on my laptop.
+I replace the files to update them, as I write them in Atom on my laptop.
