@@ -15,6 +15,11 @@
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
+.menuitem{
+  align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .paragraph{
   color: #00FF00;
   font-family: courier;
