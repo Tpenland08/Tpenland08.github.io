@@ -13,7 +13,7 @@ Fake enemy visible on the right side
 
 V.Alpha.1.0
 Released 01/27/2022
-Features -
+Features Added -
 Updated player texture to new one with shading
 Added zombie texture to replace placeholder
 Added ammo drop
@@ -25,3 +25,20 @@ Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn
 player sometimes sinks into floor
 Fake enemy visible on the right side
 Fake ammo drop visible
+
+V.Beta.1.0
+Released 01/27/2022
+Features Added -
+Added life counter
+Optimized reset button
+Death by empty ammo while no ammo drop avaliable added
+Death by empty life bar added
+Bugs Fixed -
+Fake ammo box
+Fake enemy
+Enemies visible before killable
+Known Bugs -
+Player sometimes sinks into floor
+Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
+Zombies don't disapear on reset
+Player sinks into floor when turning around imediately before touching the ground
