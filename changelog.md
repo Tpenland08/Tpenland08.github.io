@@ -42,3 +42,18 @@ Player sometimes sinks into floor
 Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
 Zombies don't disapear on reset
 Player sinks into floor when turning around imediately before touching the ground
+Player dies when ammo is 0 but ammo drop is in the air
+
+V.Beta.1.1
+Released 01/28/2022
+Features Added -
+Removed gun sprite for optimization
+Added gun texture
+Added Bullet counter texture
+Bugs Fixed -
+Player no longer dies when ammo is 0 but ammo drop is in the air
+Known Bugs -
+Player sometimes sinks into floor
+Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
+Zombies don't disapear on reset
+Player sinks into floor when turning around imediately before touching the ground due to costume size difference
