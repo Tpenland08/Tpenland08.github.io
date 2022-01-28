@@ -82,3 +82,4 @@ Known bugs -
 Player sometimes sinks into floor
 Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
 Zombies still hurt you after you die
+Zombies don't disapear on reset
