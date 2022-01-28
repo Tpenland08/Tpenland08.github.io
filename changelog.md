@@ -57,3 +57,15 @@ Player sometimes sinks into floor
 Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
 Zombies don't disapear on reset
 Player sinks into floor when turning around imediately before touching the ground due to costume size difference
+
+V.Beta.1.2
+Features Added -
+Progress bar for zombies till ammo drop
+Player hitbox
+Bugs Fixed -
+Player can change costumes after death
+Gun touching zombie no longer hurts player
+Known Bugs -
+Zombies don't disapear on reset
+Player sometimes sinks into floor
+Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
