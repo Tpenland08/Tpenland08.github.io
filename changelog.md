@@ -69,3 +69,16 @@ Known Bugs -
 Zombies don't disapear on reset
 Player sometimes sinks into floor
 Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
+
+
+V.Beta.1.3
+Features added -
+Grave apears upon death
+Bugs fixed -
+Ammo drops now disapear on reset
+Ammo drops now collectable while in midair
+Zombies now disapear on reset
+Known bugs -
+Player sometimes sinks into floor
+Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
+Zombies still hurt you after you die
