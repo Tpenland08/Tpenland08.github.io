@@ -6,4 +6,4 @@ Ammo Drop - 5
 Ten Seconds Survived (Repeats) - 1
 Thirty Seconds Survived (Repeats) - 2
 
-5 Points = 1 Coin
+5 Points = 1 Coin (Coins not implemented yet)
