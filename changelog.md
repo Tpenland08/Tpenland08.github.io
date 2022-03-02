@@ -83,3 +83,18 @@ Player sometimes sinks into floor
 Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
 Zombies still hurt you after you die
 Zombies don't disapear on reset
+
+V.Beta.1.4
+Features added -
+Bullet now deletes when it hits an enemy
+Partial point system without texture added (See ./points.md)
+Bugs fixed -
+Zombies now disapear on reset
+- Zombies don't hurt you after you die (b/c they aren't there)
+Player no longer remains grave after reset until move
+Known bugs -
+Player sometimes sinks into floor
+Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
+Neither here nor there -
+Bullet count texture updated to compensate for light source location
+Updated sprite names for relavance and readibility
