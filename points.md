@@ -1,6 +1,7 @@
 ---Point System is as follows---
 
 Zombie Kill - 2
+Double Kill - 3
 Life Lost - -7
 Ammo Drop - 5
 Ten Seconds Survived (Repeats) - 1

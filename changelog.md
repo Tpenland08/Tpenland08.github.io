@@ -94,7 +94,20 @@ Zombies now disapear on reset
 Player no longer remains grave after reset until move
 Known bugs -
 Player sometimes sinks into floor
+Zombies don't disapear on reset
 Player sometimes takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
 Neither here nor there -
 Bullet count texture updated to compensate for light source location
 Updated sprite names for relavance and readibility
+
+V.1.0.0
+Features added -
+Double kill now worth 3 points
+Game pauses when P or pause button pressed
+Bugs fixed -
+Player no longer takes 0.3-0.1 seconds too long to turn around / doesn't to turn around at all
+Score no longer flashes to negatives after life lost while score <7
+Zobies disapear on reset
+Known bugs -
+Player sometimes sinks into floor
+Double kill call sometimes apears partially off-screen
