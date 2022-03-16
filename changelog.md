@@ -111,3 +111,16 @@ Zobies disapear on reset
 Known bugs -
 Player sometimes sinks into floor
 Double kill call sometimes apears partially off-screen
+Ground can pause game
+
+V.1.0.1
+Features added -
+Coins drop, Worth five points
+Difficulty control in pause menu
+Several minor optomization updates
+Bugs fixed -
+Ground no longer pauses game
+Double kill call doesn't appear partially off-screen
+Known bugs -
+Player sometimes sinks into floor
+After first difficulty switch in a game, other switches cause multiple difficulty highlights
