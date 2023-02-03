@@ -1,0 +1,21 @@
+.uno {
+  float: left;
+  width: 50%;
+}
+.dos {
+  float: right;
+  width: 50%;
+}
+
+h2 {
+  font-family: monospace;
+  color: #bbbbbb;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: gray;
+}
+
+body {
+  background-color: black;
+}
