@@ -12,6 +12,10 @@ h2 {
   color: #bbbbbb;
 }
 
+audio {
+margin-left: 30px;
+}
+
 audio::-webkit-media-controls-panel {
   background-color: gray;
 }
