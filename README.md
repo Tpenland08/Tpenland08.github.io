@@ -1,4 +1,4 @@
-# taemon-coolz.github.io
+# AestheticOwl.github.io
 :)
 This is my website.
 I just make it for fun.
