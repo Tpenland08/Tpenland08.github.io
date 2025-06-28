@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Time & Weather</title>
+  <style>
+    body {
+      background: #0e0e0e;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    #time {
+      font-size: 6em;
+      font-weight: bold;
+    }
+    #date {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    #weather {
+      font-size: 1.5em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div id="time">--:--:--</div>
+  <div id="date">Loading date...</div>
+  <div id="weather">Loading weather...</div>
+
+  <script>
+    function updateTime() {
+      const now = new Date();
+      document.getElementById("time").textContent = now.toLocaleTimeString();
+      document.getElementById("date").textContent = now.toLocaleDateString(undefined, {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      });
+    }
+
+    setInterval(updateTime, 1000);
+    updateTime();
+
+    function getWeather(lat, lon) {
+      const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`;
+
+      fetch(url)
+        .then(res => res.json())
+        .then(data => {
+          const weather = data.current_weather;
+          const temp = Math.round(weather.temperature);
+          const wind = Math.round(weather.windspeed);
+          const desc = `Temp: ${temp}°C, Wind: ${wind} km/h`;
+          document.getElementById("weather").textContent = desc;
+        })
+        .catch(err => {
+          console.error("Weather fetch error:", err);
+          document.getElementById("weather").textContent = "Weather unavailable";
+        });
+    }
+
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        pos => getWeather(pos.coords.latitude, pos.coords.longitude),
+        err => {
+          console.warn("Geolocation error:", err.message);
+          document.getElementById("weather").textContent = "Location blocked";
+        }
+      );
+    } else {
+      document.getElementById("weather").textContent = "Geolocation not supported";
+    }
+  </script>
+</body>
+</html>
